@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xtremespb/sxjs.git"
+        "url": "git+https://github.com/xtremespb/sfxjs.git"
     },
     "keywords": [
         "javascript",
@@ -21,9 +21,9 @@
     "author": "Mikhail Matveev <xtreme@rh1.ru>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/xtremespb/sxjs/issues"
+        "url": "https://github.com/xtremespb/sfxjs/issues"
     },
-    "homepage": "https://github.com/xtremespb/sxjs#readme",
+    "homepage": "https://github.com/xtremespb/sfxjs#readme",
     "devDependencies": {
         "@babel/code-frame": "^7.18.6",
         "@babel/core": "^7.20.7",
