@@ -11,3 +11,18 @@ The advantage of using this utility is that the size of the source file is reduc
 
 No external dependencies are required for the utility to work.
 
+## Usage
+
+In order to pack a file, you must install *sfxjs* in "global" mode:
+
+```
+npm i sfxjs -G
+```
+
+Then, go to the directory where you would like to pack a file, and execute the following command:
+
+```
+sfxjs source.js result.js
+```
+
+**Important**: once unpacked, the "packed" version is replaced with "unpacked" one.
