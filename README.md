@@ -25,4 +25,4 @@ Then, go to the directory where you would like to pack a file, and execute the f
 sfxjs source.js result.js
 ```
 
-**Important**: once unpacked, the "packed" version is replaced with "unpacked" one.
+**Important**: after the first run, the "packed" version is replaced with "unpacked" one. This means that it's only useful for distribution and download links.
