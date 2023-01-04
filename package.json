@@ -2,7 +2,9 @@
     "name": "sfxjs",
     "version": "1.0.0",
     "description": "Create compressed SFX JavaScript file",
-    "main": "inject.js",
+    "bin": {
+        "sfxjs": "./dist/inject.js"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack --mode production",
