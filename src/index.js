@@ -19,8 +19,8 @@ const executeCommand = (command = "") => new Promise((resolve, reject) => {
 });
 
 (async () => {
-    const scriptSize = 1212;
-    const scriptName = path.resolve(`${__dirname}/sx.js`);
+    const scriptSize = 1239;
+    const scriptName = path.resolve(`${__dirname}/${path.basename(process.argv[1])}`);
     try {
         const fileSize = fs.statSync(scriptName).size;
         const fd = fs.openSync(scriptName);
