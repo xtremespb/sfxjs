@@ -1,5 +1,5 @@
 {
-    "ignorePatterns": ["src/unzip"],
+    "ignorePatterns": ["src/unzip", "dist/"],
     "parser": "@babel/eslint-parser",
     "parserOptions": {
         "ecmaVersion": 2018,
