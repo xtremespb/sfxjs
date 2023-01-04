@@ -15,6 +15,7 @@ try {
     const compressed = Buffer.from(`//${zlib.brotliCompressSync(data).toString("hex")}`);
     // eslint-disable-next-line no-console
     fs.writeFileSync(destFilePath, Buffer.concat([script, compressed]));
+    // eslint-disable-next-line no-console
     console.log(`All done, compressed file written to: ${destFilePath}`);
 } catch (e) {
     // eslint-disable-next-line no-console
